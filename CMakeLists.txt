@@ -200,7 +200,6 @@ set (NLOPT_SOURCES
   src/algs/direct/DIRect.c src/algs/direct/direct_wrap.c src/algs/direct/DIRserial.c src/algs/direct/DIRsubrout.c src/algs/direct/direct-internal.h src/algs/direct/direct.h
   src/algs/cdirect/cdirect.c src/algs/cdirect/hybrid.c src/algs/cdirect/cdirect.h
   src/algs/praxis/praxis.c src/algs/praxis/praxis.h
-  src/algs/luksan/plis.c src/algs/luksan/plip.c src/algs/luksan/pnet.c src/algs/luksan/mssubs.c src/algs/luksan/pssubs.c src/algs/luksan/luksan.h
   src/algs/crs/crs.c src/algs/crs/crs.h
   src/algs/mlsl/mlsl.c src/algs/mlsl/mlsl.h
   src/algs/mma/mma.c src/algs/mma/mma.h src/algs/mma/ccsa_quadratic.c
@@ -262,7 +261,6 @@ target_include_directories (${nlopt_lib} PRIVATE
   src/algs/direct
   src/algs/cdirect
   src/algs/praxis
-  src/algs/luksan
   src/algs/crs
   src/algs/mlsl
   src/algs/mma
